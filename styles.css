@@ -1,18 +1,19 @@
 body {
-    background: black;
+    background: rgb(233, 230, 230);
     display: flex;
     justify-content: center;
-    padding-top: 25px;
+    padding: 0px;
+    margin: 0px;
 }
 
 main {
     height: 1780px;
-    width: 950px;
+    width: max-content;
     background: rgb(233, 230, 230);
 }
 .header {
     height: 53px;
-    width: 950px;
+    width: 1350px;
     display: flex;
     justify-content: center;
     background: white;
@@ -28,7 +29,7 @@ h2 {
     height: 360px;
     background: white;
     margin-top: 50px;
-    margin-left: 260px;
+    margin-left: 460px;
 }
 .post-header {
     display: flex;
